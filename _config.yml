@@ -23,12 +23,15 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g.https://github.com/hellolyc/hellolyc.github.io
 twitter_username: jekyllrb
 github_username:  hellolyc
+paginate: 3
+paginate_path: "page:num"
 
 # Build settings
 markdown: kramdown
-theme: minima
+theme: jekyll-theme-primer
 gems:
   - jekyll-feed
+  - jekyll-paginate
 exclude:
   - Gemfile
   - Gemfile.lock
