@@ -28,8 +28,7 @@ paginate_path: "page:num"
 
 # Build settings
 markdown: kramdown
-
-theme: jekyll-theme-primer
+theme: minima
 
 gems:
   - jekyll-feed
