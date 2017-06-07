@@ -2,7 +2,7 @@
 layout: post
 title:  "网易云评论!"
 date:   2017-06-05 18:32:05 +0800
-categories: jekyll update
+categories: test
 ---
 
 # ***注意：部署到web端才能看到网易云评论*** #
