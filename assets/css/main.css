@@ -1,0 +1,23 @@
+body 
+{ 
+	padding-top: 70px;
+	background-color: #e8e8e8;
+		
+}
+ul>.active>a
+{
+	background-color:#ddd
+}
+.content
+{
+	padding:5px;
+	background-color:#fff
+}
+.categories
+{
+	transition: width 2s;	
+}
+a.categories:hover
+{
+	background-color:#b2dfdb;
+}

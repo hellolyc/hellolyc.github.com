@@ -1,14 +1,22 @@
 <!DOCTYPE html>
 <html>
 {% include head.html %}
-<body>
-	<div class="container">
-		<div class="row">
-			<div class="col-md-9">
-				{% include navigation.html param="About" %}
-				{{content}}
+<body data-aos="zoom-out-up">
+{% include navigation.html param="About" %}
+	<div  class="container">
+		<div  class="row">
+			<div class="col-md-12">
+				
+				<div class="content">
+			 {{content}}
+			 </div>
 			 </div>
 		</div>
 	</div> 
+	<script>
+
+AOS.init()
+
+</script>
 </body>
 </html>
