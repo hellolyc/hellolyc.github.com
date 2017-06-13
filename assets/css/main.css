@@ -21,3 +21,7 @@ a.categories:hover
 {
 	background-color:#b2dfdb;
 }
+.highlight,.highlight pre
+{
+	background-color:#211111
+}
